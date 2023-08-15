@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>文山雅軒住戶資料</title>
+        <script src="./public/table.js"></script>
+        <script src="./public/lib.js"></script>
+        <script type="module" src="./public/main.js" defer></script>
+        <!-- <link rel="stylesheet" href="main.css" /> -->
+    </head>
+</html>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td id="search">
+                    <div id="filter"> 篩選器 </div>
+                    <hr>
+                    <div>樓層: <select id="floor"></select></div>
+                    <div>門牌: <select id="door_num"></select></div>
+                    <hr>
+                </td>
+                <td id="data">
+                    <table>
+                        <thead id="informations_thead"></thead>
+                        <tbody id="informations_tbody"></tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
